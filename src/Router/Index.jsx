@@ -4,6 +4,7 @@ import App from "../App";
 import ErrorPage from "../pages/ErrorPage";
 import Header from "../Layout/Header";
 import Hero from "../Sections/Hero";
+import Home from "../pages/Home";
 
 
  const  router = createBrowserRouter([
@@ -13,7 +14,7 @@ import Hero from "../Sections/Hero";
       children: [
         {
           path: "/",
-          element: <App />,
+          element: <Home />,
         },
         {
           path: "*",

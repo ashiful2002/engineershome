@@ -4,9 +4,9 @@ import { Helmet } from "react-helmet";
 const PageTitle = ({ title, heading, className }) => {
   return (
     <>
-      {title && (
+      {title && ( 
         <Helmet>
-          <title>{title} - site </title>
+          <title>{title} - Engineers Home </title>
         </Helmet>
       )}
       {heading && <h1 className={`heading  ${className} `}>{heading}</h1>}

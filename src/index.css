@@ -16,6 +16,9 @@ p a {
 
 @layer components {
   .heading {
-    @apply bg-blue-600 capitalize text-center rounded text-white;
+    @apply bg-green-700 capitalize text-center rounded text-white;
+  }
+  .subHeading {
+    @apply text-orange-400 capitalize text-2xl ;
   }
 }
