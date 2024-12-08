@@ -7,10 +7,10 @@ import hero2 from "../../assets/hero2.png";
 const Hero = () => {
   return (
     <Section id="home">
-      <PageTitle className="bg-transparent text-green-700" />
+      <PageTitle className="bg-transparent text-green-700" heading=" Home"/>
       <div>
         <div>
-          <div className="flex items-center justify-between flex-col sm:flex-row gap-10">
+          <div className="flex items-center justify-between flex-col sm:flex-row gap-10 ">
             <div>
               <div className="rounded-full bg-orange-400 border">
                 <img

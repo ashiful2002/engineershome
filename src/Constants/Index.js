@@ -19,6 +19,11 @@ export const navItems = [
     title: "testimonials",
     url: "/#testimonials",
   },
+  {
+    id: "5",
+    title: "contact",
+    url: "/#contact",
+  },
 ];
 
 export const heroDesc = [
