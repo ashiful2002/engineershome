@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           <p>
             Developed By
-            <a href="#" target="_blank" className="ml-2 text-green-500">
+            <a href="https://ashiful-islam.vercel.app/" target="_blank" className="ml-2 text-green-500">
               mukto
             </a>
           </p>

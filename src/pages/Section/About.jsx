@@ -9,7 +9,7 @@ const About = () => {
     <Section id="about" classname="">
       <div>
         <div>
-          <div className="flex flex-col md:flex-row justify-around ">
+          <div className="flex border rounded flex-col md:flex-row justify-around ">
             <div className="">
               <img src={logo} alt="logo" srcset="" />
             </div>
@@ -20,14 +20,17 @@ const About = () => {
                   <h1 className="font-bold my-4 heading inline text-green-700 bg-transparent">
                     {item.heading}
                   </h1>
-                  <p className="text-neutral-600 tracking-tight p-2 text-justify">{item.text}</p>
+                  <p className="text-neutral-600 tracking-tight p-2 text-justify">
+                    {item.text}
+                  </p>
                   <span>
-                  <h4 className="text-neutral-600 gap-2 ">
-                    {/* <span><MdKeyboardCommandKey /></span> */}
-                    <p className="text-orange-300">Founder -  {item.founder}</p>
-                  </h4>
+                    <h4 className="text-neutral-600 gap-2 ">
+                      {/* <span><MdKeyboardCommandKey /></span> */}
+                      <p className="text-orange-300">
+                        Founder - {item.founder}
+                      </p>
+                    </h4>
                   </span>
-                 
                 </div>
               ))}
             </div>

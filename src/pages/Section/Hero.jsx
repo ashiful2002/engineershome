@@ -7,10 +7,10 @@ import hero2 from "../../assets/hero2.png";
 const Hero = () => {
   return (
     <Section id="home">
-      <PageTitle className="bg-transparent text-green-700" heading=" Home"/>
+      <PageTitle className="bg-transparent text-green-700" />
       <div>
         <div>
-          <div className="flex items-center justify-between flex-col sm:flex-row gap-10 ">
+          <div className="flex items-center border rounded justify-around flex-col sm:flex-row gap-10 ">
             <div>
               <div className="rounded-full bg-orange-400 border">
                 <img
@@ -21,7 +21,7 @@ const Hero = () => {
                 />
               </div>
             </div>
-            <div>
+            <div className="">
               {heroDesc.map((item) => (
                 <div className="" key={item.id}>
                   <h6 className="subHeading">{item.title}</h6>
