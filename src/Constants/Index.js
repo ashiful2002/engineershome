@@ -60,7 +60,7 @@ export const cardDesc = [
     name: "Engr. Alim Uddin",
     degree: "B.Sc. in Civil Engineering",
     post: "Founder & Chairman",
-    expert: "structural Design Expert",
+    expert: "Structural Design Expert",
     social: [
       {
         id: "01",
@@ -85,7 +85,7 @@ export const cardDesc = [
     name: "Engr. Selim Reza",
     degree: "B.Sc. in Civil Engineering",
     post: "Co-founder & Managing Director",
-    expert: "Architectural Design Expert",
+    expert: "Structural Design Expert",
     social: [
       {
         id: "01",
@@ -110,7 +110,7 @@ export const cardDesc = [
     name: "Razib Ahmed",
     degree: "B.Sc. in Civil Engineering",
     post: "Co-founder & Cheif Executive Officer",
-    expert: "Struggling Design Expert",
+    expert: "Architectural Design Expert",
     social: [
       {
         id: "01",
