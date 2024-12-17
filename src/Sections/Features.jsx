@@ -1,7 +1,7 @@
 import React from "react";
 
 import heroImage from "../assets/react.svg";
-import PageTitle from "../Components/Title.jsx/PageTitle";
+import PageTitle from "../Components/Title/PageTitle";
 const Features = () => {
   return (
     <div id="link2">

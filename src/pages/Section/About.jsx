@@ -1,8 +1,7 @@
 import React from "react";
-import Section from "../../Components/Title.jsx/Section";
+import Section from "../../Components/Section";
 import logo from "../../assets/EHC.png";
 import { aboutSec } from "../../Constants/Index";
-import { MdKeyboardCommandKey } from "react-icons/md";
 
 const About = () => {
   return (
