@@ -3,7 +3,7 @@ import whatsapp from ".././assets/icon/whatsapp.svg";
 import email from ".././assets/icon/email.svg";
 
 import eAmim from "../assets/eAlim.jpg";
-import eSelim from "../assets/eselim.png";
+import eSelim from "../assets/selimE.png";
 import eRazib from "../assets/eRazib.png";
 
 export const navItems = [
