@@ -1,21 +1,39 @@
 import React from "react";
 import Section from "../../Components/Section";
 import PageTitle from "../../Components/Title/PageTitle";
+import image from "../../assets/eRazib.png";
+import { services } from "../../Constants/Index";
 
 const Services = () => {
   return (
-    <Section>
-      <PageTitle heading="Services" />
-      <div>
-        <p className="text-xs text-center">Call or visit our office asap
-        Verbal Consultation is totally free...</p>
+    <div className="bg-slate-900 rounded">
+      <div id="services">
+        <PageTitle heading="Services" />
         <div>
-            <div>
-                
+          <p className="text-xs text-center">
+            Call or visit our office asap Verbal Consultation is totally free...
+          </p>
+          <div>
+            <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
+              {services.map((item) => (
+                <div id={item.id} className="my-4  shadow rounded">
+                  <div>
+                    <img
+                      src={item.image}
+                      alt="image"
+                      className="rounded-xl   "
+                    />
+                  </div>
+                  <h4 className="inline  bg-orange-400 text-white capitalize rounded-full px-4 ">
+                    {item.text}
+                  </h4>
+                </div>
+              ))}
             </div>
+          </div>
         </div>
       </div>
-    </Section>
+    </div>
   );
 };
 

@@ -6,6 +6,8 @@ import eAmim from "../assets/eAlim.jpg";
 import eSelim from "../assets/selimE.png";
 import eRazib from "../assets/eRazib.png";
 
+import service1 from "../assets/service1.jpg";
+
 export const navItems = [
   {
     id: "1",
@@ -19,8 +21,13 @@ export const navItems = [
   },
   {
     id: "3",
-    title: "servises",
-    url: "/#servises",
+    title: "services",
+    url: "/#services",
+  },
+  {
+    id: "6",
+    title: "projects",
+    url: "/#projects",
   },
   {
     id: "4",
@@ -128,5 +135,80 @@ export const cardDesc = [
         url: "mailto:razib@engineershome.com.bd",
       },
     ],
+  },
+];
+
+export const services = [
+  {
+    id: "0",
+    image: service1,
+    text: "architectural plan & design",
+  },
+  {
+    id: "1",
+    image: service1,
+    text: "structural design",
+  },
+  {
+    id: "2",
+    image: service1,
+    text: "exterior & interior design",
+  },
+  {
+    id: "3",
+    image: service1,
+    text: "Construction management",
+  },
+  {
+    id: "4",
+    image: service1,
+    text: "cost estimation",
+  },
+];
+
+export const projects = [
+  {
+    id: "0",
+    name: "rowmari generel hospital",
+    image: service1,
+    desc: "Architectural & Structural design",
+    url: "#",
+  },
+  {
+    id: "0",
+    name: "rowmari generel hospital",
+    image: service1,
+    desc: "Architectural & Structural design",
+    url: "#",
+  },
+  {
+    id: "0",
+    name: "rowmari generel hospital",
+    image: service1,
+    desc: "Architectural & Structural design",
+    url: "#",
+  },
+];
+
+export const faqs = [
+  {
+    id: "1",
+    question: "question 1",
+    anster: "this is a answer 1 around 50 words this is a answer 1 around 50 wordsthis is a answer 1 around 50 words",
+  },
+  {
+    id: "2",
+    question: "question 2",
+    anster: "this is a answer 2 around 50 words",
+  },
+  {
+    id: "3",
+    question: "question 3",
+    anster: "this is a answer 3 around 50 words",
+  },
+  {
+    id: "4",
+    question: "question 4",
+    anster: "this is a answer 4 around 50 words",
   },
 ];
