@@ -15,7 +15,7 @@ const Engineers = () => {
               <img
                 src={item.img}
                 alt={item.name}
-                className="rounded-full mx-auto "
+                className="rounded-full mx-auto my-2"
                 width={110}
                 height={50}
               />
