@@ -8,9 +8,9 @@ const Engineers = () => {
   return (
     <Section>
       <PageTitle heading="our experts" />
-      <div>
+      <div className="flex items-start justify-center md:flex-row flex-col gap-5 mt-4">
         {cardDesc.map((item) => (
-          <div className="flex items-center justify-center" key={item.id}>
+          <div className="" key={item.id}>
             <Card>
               <img
                 src={item.img}
