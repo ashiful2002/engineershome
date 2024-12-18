@@ -16,25 +16,16 @@ const Button = ({ className, children, onClick, href, secondory }) => {
       {children}
     </button>
   );
-  const renderSecondary = () => (
-    <button 
-    secondory={secondory}
-      className={` ${BtnClasses}  ${className}`}
-      onClick={onClick}
-      href={href}
-    >
-      {children}
-    </button>
-  );
 
-  if (href) {
-    return renderLink();
-  } else if (secondory) {
-    return renderSecondary();
-  } else {
-    return renderBtn();
-  }
-  // return href ? renderLink() : renderBtn();
+
+  // if (href) {
+  //   return renderLink();
+  // } else if (secondory) {
+  //   return renderSecondary();
+  // } else {
+  //   return renderBtn();
+  // }
+  return href ? renderLink() : renderBtn();
 };
 
 export default Button;
