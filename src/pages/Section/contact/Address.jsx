@@ -9,7 +9,7 @@ const Address = () => {
         {contactDetails.map((item) => (
           <div
             key={item.id}
-            className=" flex items-center justify-center gap-5"
+            className=" flex items-center justify-between gap-3"
           >
             <a href={item.url} target="_blank" rel="noopener noreferrer">
               <img
@@ -17,7 +17,7 @@ const Address = () => {
                 alt=""
                 srcset=""
                 width={20}
-                className="mx-5"
+                className="mx-4"
               />
             </a>
           </div>
