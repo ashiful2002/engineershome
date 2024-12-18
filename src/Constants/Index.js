@@ -1,12 +1,19 @@
 import facebook from ".././assets/icon/facebook.svg";
 import whatsapp from ".././assets/icon/whatsapp.svg";
 import email from ".././assets/icon/email.svg";
+import location from ".././assets/icon/location.svg";
+import phone from ".././assets/icon/phone.svg";
 
 import eAmim from "../assets/eAlim.jpg";
 import eSelim from "../assets/selimE.png";
 import eRazib from "../assets/eRazib.png";
 
 import service1 from "../assets/service1.jpg";
+
+import review1 from "../assets/Reviews/review1.jpg";
+import review2 from "../assets/Reviews/review2.jpg";
+import review3 from "../assets/Reviews/review3.jpg";
+import review4 from "../assets/Reviews/review4.jpg";
 
 export const navItems = [
   {
@@ -138,6 +145,29 @@ export const cardDesc = [
   },
 ];
 
+export const Impacts = [
+  {
+    id: "1",
+    number: "98+",
+    text: "projects completed",
+  },
+  {
+    id: "2",
+    number: "94+",
+    text: "global customers",
+  },
+  {
+    id: "3",
+    number: "4",
+    text: "years of experience",
+  },
+  {
+    id: "4",
+    number: "6",
+    text: "team engineers",
+  },
+];
+
 export const services = [
   {
     id: "0",
@@ -193,22 +223,99 @@ export const projects = [
 export const faqs = [
   {
     id: "1",
-    question: "question 1",
-    anster: "this is a answer 1 around 50 words this is a answer 1 around 50 wordsthis is a answer 1 around 50 words",
+    question: "Question 1",
+    anster:
+      "this is a answer 1 around 50 words this is a answer 1 around 50 wordsthis is a answer 1 around 50 words",
   },
   {
     id: "2",
-    question: "question 2",
+    question: "Question 2",
     anster: "this is a answer 2 around 50 words",
   },
   {
     id: "3",
-    question: "question 3",
+    question: "Question 3",
     anster: "this is a answer 3 around 50 words",
   },
   {
     id: "4",
-    question: "question 4",
+    question: "Question 4",
     anster: "this is a answer 4 around 50 words",
+  },
+];
+
+export const contactDetails = [
+  {
+    id: "01",
+    title: "rowmari, kurigram",
+    icon: location,
+    url: "https://maps.app.goo.gl/QBWdLw4sPrBsWNco9",
+  },
+  {
+    id: "02",
+    title: "phone",
+    icon: phone,
+    url: "tel:+880 1770-033557",
+  },
+  {
+    id: "03",
+    title: "email",
+    icon: email,
+    url: "mailto:engineershome.ltd@gmail.com",
+  },
+  {
+    id: "03",
+    title: "facebook",
+    icon: facebook,
+    url: "https://www.facebook.com/ehome.ltd",
+  },
+  {
+    id: "03",
+    title: "whatsapp",
+    icon: whatsapp,
+    url: "https://wa.me/+880 1770-033557",
+  },
+];
+
+export const reviews = [
+  {
+    id: "01",
+    name: "shamsuzzaman swapon",
+    image: review1,
+    speech:
+      "একটা ডিজাইন ফাইনাল করতে যে পরিমান প্যারা দিছি, অন্য কোথাও গেলে বলে ফেলতো ভাই মাফ চাই � শুরু থেকে শেষ পর্যন্ত এত ধৈর্য নিয়ে পছন্দসই ডিজাইন করে দেয়ার জন্য ধন্যবাদ তোমাদের সাফল্য কামনা করছি",
+    client_url: "https://www.facebook.com/shamsuzzaman.swapon",
+    review_Url: "https://www.facebook.com/share/p/9JCxnsoP9vPLhSih/",
+  },
+  {
+    id: "02",
+    name: "Md Nazrul Islam",
+    image: review2,
+    speech:
+      "Though I am not the direct client of this Farm but observing past few year of their hard work & faith with 100% Customers satisfaction in this Area. All the clients are happy in their performance of professional work experience. I obviously recommended those who are planning to build a dreamy residence or Institute,  they can take an advantages from their Professional Consultations. Best wishes to Engineers Home.💖💖",
+    client_url: "https://www.facebook.com/mnazrul.nm",
+    review_Url: "https://www.facebook.com/share/p/zQ9r7rax6KKoxw7p/",
+  },
+  {
+    id: "03",
+    name: "DR. Riad arefin biddut",
+    image: review3,
+    speech:
+      "আমি হয়তো শুরুর দিকের ক্লাইন্ট 🙂আলহামদুলিল্লাহ! আমার চাহিদা অনুযায়ী ডিজাইন এবং বাড়ী তৈরির সাথে পুরোটা সময় আমি তাদের পাশে পেয়েছি। তাদের সাফল্য দেশ ও বিদেশে ছড়িয়ে যাক। ",
+    li1: "100% professional ",
+    li2: "Highly Recomended 👍",
+    client_url: "https://www.facebook.com/dr.riadarefin",
+    review_Url: "https://www.facebook.com/share/p/Xdb6286ZLx3LtqB4/",
+  },
+  {
+    id: "04",
+    name: "K.M. Salman Hayder",
+    image: review4,
+    speech:
+      "ইঞ্জিনিয়ারস হোম কনসালটেন্সি ভবন নির্মানের ক্ষেত্রে সৃজনশীলতা, দক্ষতা ও পেশাদারিত্বের মাধ্যমে তাদের সেবা প্রদান করতেছে৷   সেবা প্রদানের ধারাবাহিকতা রক্ষা করে প্রতিষ্ঠানটি ভবিষ্যতে আরও অনেক সাফল্য অর্জন করুক৷",
+    li1: "",
+    li2: "",
+    client_url: "https://www.facebook.com/sharif.setu",
+    review_Url: "https://www.facebook.com/share/p/NKPjJ7Ai1LvshKmc/",
   },
 ];

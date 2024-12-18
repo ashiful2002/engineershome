@@ -6,7 +6,7 @@ import { services } from "../../Constants/Index";
 
 const Services = () => {
   return (
-    <div className="bg-slate-900 rounded">
+    <div className="bg-slate-400 rounded">
       <div id="services">
         <PageTitle heading="Services" />
         <div>
@@ -16,15 +16,11 @@ const Services = () => {
           <div>
             <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
               {services.map((item) => (
-                <div id={item.id} className="my-4  shadow rounded">
+                <div id={item.id} className=" shadow rounded">
                   <div>
-                    <img
-                      src={item.image}
-                      alt="image"
-                      className="rounded-xl   "
-                    />
+                    <img src={item.image} alt="image" className="rounded-xl " />
                   </div>
-                  <h4 className="inline  bg-orange-400 text-white capitalize rounded-full px-4 ">
+                  <h4 className="inline  bg-orange-400 text-white capitalize rounded-md px-4 ">
                     {item.text}
                   </h4>
                 </div>
