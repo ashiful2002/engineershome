@@ -1,8 +1,8 @@
 import React from "react";
-import Section from "../../Components/Section";
-import PageTitle from "../../Components/Title/PageTitle";
-import { cardDesc } from "../../Constants/Index";
-import Card from "../../Components/Card";
+import Section from "../../../Components/Section";
+import PageTitle from "../../../Components/Title/PageTitle";
+import { cardDesc } from "../../../Constants/Index";
+import Card from "../../../Components/Card";
 
 const Engineers = () => {
   return (
@@ -19,30 +19,22 @@ const Engineers = () => {
                 width={110}
                 height={50}
               />
-              <h2 className="">{item.name}</h2>
-              <p className="text-md">{item.degree}</p>
+              <h2 className="text-color-3">{item.name}</h2>
+              <p className="text-md text-color-3">{item.degree}</p>
 
-              <p>{item.post}</p>
+              <p className="text-color-3"> {item.post}</p>
               <p
-                className="border rounded-3xl inline px-4 py-1 font-semibold text-white"
+                className="border  rounded-3xl inline px-4 py-1 font-semibold text-white"
                 secondory="secondory"
               >
                 {item.expert}
               </p>
               <div className="flex items-center justify-center gap-4 mt-4 ">
-                {item.social.map((item) => (
-                  <div key={item.id} className="bg-white rounded-full p-2">
-                    <a
-                      href={item.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img
-                        src={item.icon}
-                        alt={item.id}
-                        width={20}
-                        className=""
-                      />
+                {item.social.map(({ id, url, icon: Icon }) => (
+                  <div key={id} className=" p-2">
+                    {/* bg-white rounded-full */}
+                    <a href={url} target="_blank" rel="noopener noreferrer">
+                      <Icon className="text-2xl text-color-3" />
                     </a>
                   </div>
                 ))}

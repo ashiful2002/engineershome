@@ -1,7 +1,7 @@
 import React from "react";
 const Button = ({ className, children, onClick, href, secondory }) => {
   const BtnClasses =
-    "bg-orange-400 border rounded font-medium py-2 px-3 capitalize text-white hover:bg-black hover:text-white transition-all duration-300 ";
+    "bg-secondary-color border rounded font-medium py-2 px-3 capitalize text-white hover:bg-black hover:text-white transition-all duration-300 ";
   const renderBtn = () => (
     <button className={`  ${BtnClasses}  ${className} `} onClick={onClick}>
       {children}

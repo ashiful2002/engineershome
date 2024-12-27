@@ -1,11 +1,10 @@
 import React from "react";
-import { heroDesc } from "../../Constants/Index";
-import Section from "../../Components/Section";
-import PageTitle from "../../Components/Title/PageTitle";
-import heroimage from "../../assets/heroimage.png";
-import hero2 from "../../assets/hero2.png";
-import Button from "../../Components/Button";
-const Hero = () => {
+import { heroDesc } from "../../../Constants/Index";
+import Section from "../../../Components/Section";
+import PageTitle from "../../../Components/Title/PageTitle";
+import heroimage from "../../../assets/heroimage.png";
+import Button from "../../../Components/Button";
+const Hero =  () => {
   return (
     <Section id="home">
       <PageTitle className="bg-transparent text-green-700" />
@@ -13,7 +12,7 @@ const Hero = () => {
         <div>
           <div className="flex items-center rounded p-2 shadow-sm justify-around flex-col sm:flex-row gap-10 ">
             <div>
-              <div className="rounded-full bg-orange-400 border">
+              <div className="rounded-full bg-secondary-color border">
                 <img
                   className="rounded-full "
                   src={heroimage}

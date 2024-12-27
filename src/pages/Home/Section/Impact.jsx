@@ -1,10 +1,10 @@
 import React from "react";
-import Section from "../../Components/Section";
-import PageTitle from "../../Components/Title/PageTitle";
-import { Impacts } from "../../Constants/Index";
+import Section from "../../../Components/Section";
+import PageTitle from "../../../Components/Title/PageTitle";
+import { Impacts } from "../../../Constants/Index";
 
 const Impact = () => {
-  return (
+  return ( 
     <Section>
       <PageTitle heading="Impact" />
       <div>

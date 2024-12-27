@@ -1,15 +1,14 @@
 import React from "react";
-import Section from "../../Components/Section";
-import PageTitle from "../../Components/Title/PageTitle";
-import image from "../../assets/eRazib.png";
-import { services } from "../../Constants/Index";
+import Section from "../../../Components/Section";
+import PageTitle from "../../../Components/Title/PageTitle";
+import { services } from "../../../Constants/Index";
 
 const Services = () => {
   return (
-    <div className="bg-slate-400 rounded">
+    <Section className="bg-slate-400 rounded">
       <div id="services">
         <PageTitle heading="Services" />
-        <div>
+        <div> 
           <p className="text-xs text-center">
             Call or visit our office asap Verbal Consultation is totally free...
           </p>
@@ -20,7 +19,7 @@ const Services = () => {
                   <div>
                     <img src={item.image} alt="image" className="rounded-xl " />
                   </div>
-                  <h4 className="inline  bg-orange-400 text-white capitalize rounded-md px-4 ">
+                  <h4 className="inline  bg-secondary-color text-white capitalize rounded-md px-4 ">
                     {item.text}
                   </h4>
                 </div>
@@ -29,7 +28,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Section>
   );
 };
 

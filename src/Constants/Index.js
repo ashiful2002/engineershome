@@ -1,19 +1,19 @@
-import facebook from ".././assets/icon/facebook.svg";
-import whatsapp from ".././assets/icon/whatsapp.svg";
-import email from ".././assets/icon/email.svg";
-import location from ".././assets/icon/location.svg";
-import phone from ".././assets/icon/phone.svg";
+import { v4 as uuidv4 } from "uuid";
 
 import eAmim from "../assets/eAlim.jpg";
 import eSelim from "../assets/selimE.png";
 import eRazib from "../assets/eRazib.png";
 
 import service1 from "../assets/service1.jpg";
+import cost from "../assets/Services/cost.jpg";
+import structural from "../assets/Services/structural.jpg";
 
 import review1 from "../assets/Reviews/review1.jpg";
 import review2 from "../assets/Reviews/review2.jpg";
 import review3 from "../assets/Reviews/review3.jpg";
 import review4 from "../assets/Reviews/review4.jpg";
+import { FaEnvelope, FaFacebook, FaPhone, FaWhatsapp } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 
 export const navItems = [
   {
@@ -78,17 +78,17 @@ export const cardDesc = [
     social: [
       {
         id: "01",
-        icon: facebook,
+        icon: FaFacebook,
         url: "https://www.facebook.com/AlimUddinRowmari",
       },
       {
         id: "02",
-        icon: whatsapp,
+        icon: FaWhatsapp,
         url: "https://wa.me/+880 1711-506263",
       },
       {
         id: "02",
-        icon: email,
+        icon: FaEnvelope,
         url: "mailto:alimrowmari@gmail.com",
       },
     ],
@@ -103,18 +103,18 @@ export const cardDesc = [
     social: [
       {
         id: "01",
-        icon: facebook,
+        icon: FaFacebook,
         url: "https://www.facebook.com/selim.reza.800351/",
       },
       {
         id: "02",
-        icon: whatsapp,
-        url: "https://wa.me/+880 000000000",
+        icon: FaWhatsapp,
+        url: "https://wa.me/+8801711059527",
       },
       {
         id: "02",
-        icon: email,
-        url: "mailto:selim@engineershome.com.bd",
+        icon: FaEnvelope,
+        url: "mailto:rezaselim732@gmail.com",
       },
     ],
   },
@@ -128,17 +128,17 @@ export const cardDesc = [
     social: [
       {
         id: "01",
-        icon: facebook,
+        icon: FaFacebook,
         url: "https://www.facebook.com/razib.hstu",
       },
       {
         id: "02",
-        icon: whatsapp,
+        icon: FaWhatsapp,
         url: "https://wa.me/+880 1770-033557",
       },
       {
         id: "02",
-        icon: email,
+        icon: FaEnvelope,
         url: "mailto:razib@engineershome.com.bd",
       },
     ],
@@ -176,7 +176,7 @@ export const services = [
   },
   {
     id: "1",
-    image: service1,
+    image: structural,
     text: "structural design",
   },
   {
@@ -191,7 +191,7 @@ export const services = [
   },
   {
     id: "4",
-    image: service1,
+    image: cost,
     text: "cost estimation",
   },
 ];
@@ -248,35 +248,62 @@ export const contactDetails = [
   {
     id: "01",
     title: "rowmari, kurigram",
-    icon: location,
+    icon: FaLocationDot,
     url: "https://maps.app.goo.gl/QBWdLw4sPrBsWNco9",
   },
   {
     id: "02",
     title: "phone",
-    icon: phone,
+    icon: FaPhone,
     url: "tel:+880 1770-033557",
   },
   {
     id: "03",
     title: "email",
-    icon: email,
+    icon: FaEnvelope,
     url: "mailto:engineershome.ltd@gmail.com",
   },
   {
     id: "03",
     title: "facebook",
-    icon: facebook,
+    icon: FaFacebook,
     url: "https://www.facebook.com/ehome.ltd",
   },
   {
     id: "03",
     title: "whatsapp",
-    icon: whatsapp,
+    icon: FaWhatsapp,
     url: "https://wa.me/+880 1770-033557",
   },
 ];
-
+export const getInTouch = [
+  {
+    id: uuidv4().substring(0, 6),
+    icon: FaLocationDot,
+    url: "https://maps.app.goo.gl/ahn8oH18REeZWUTJA",
+    title: "address",
+    name: "Rowmari, Kurigram",
+    desc: "36, khonjonmara mosjid market, khonjonmara",
+  },
+  {
+    id: uuidv4().substring(0, 6),
+    url: "tel:+880 1770-033557",
+    icon: FaPhone,
+    title: "phone",
+    li1: "razib: +880 1770-033557",
+    li2: "selim: +8801711059527",
+  },
+  {
+    id: uuidv4().substring(0, 6),
+    url: "mailto:engineershome.ltd@gmail.com ",
+    name: "engineershome.ltd@gmail.com ",
+    icon: FaEnvelope,
+    li1: "rezaselim732@gmail.com",
+    li2: " ",
+    title: "email",
+    desc: "razib@engineershome.com.bd",
+  },
+];
 export const reviews = [
   {
     id: "01",

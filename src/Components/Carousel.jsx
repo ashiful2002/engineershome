@@ -3,14 +3,14 @@ import { Carousel } from "antd";
 import { reviews } from "../Constants/Index";
 
 const ACarousel = () => {
-    const onChange = (currentSlide) => {
-        console.log(currentSlide);
-      };
+  const onChange = (currentSlide) => {
+    console.log(currentSlide);
+  };
   return (
-    <Carousel className=""  infinite={true}  autoplay>
+    <Carousel className="" infinite={true} autoplay>
       {reviews.map((item) => (
         <div key={item.id}>
-          <div className="flex items-center justify-center flex-col text-neutral-300">
+          <div className="flex items-center justify-center flex-col text-white">
             <p>
               {item.speech}{" "}
               <span>
@@ -25,10 +25,12 @@ const ACarousel = () => {
                 </a>
               </span>{" "}
             </p>
-            <ul>
-              <li>{item.li1}</li>
-              <li>{item.li2}</li>
-            </ul>
+            {item.li1 && (
+              <ul>
+                <li className="list-disc">{item.li1}</li>
+                <li className="list-disc">{item.li2}</li>
+              </ul>
+            )}
 
             <h5>
               -{" "}
@@ -43,7 +45,15 @@ const ACarousel = () => {
             </h5>
           </div>
           <div className="flex items-center justify-center mb-5">
-            {<img src={item.image} alt="" srcset="" className="rounded-full" width={300}/>}
+            {
+              <img
+                src={item.image}
+                alt=""
+                srcset=""
+                className="rounded-full"
+                width={300}
+              />
+            }
           </div>
         </div>
       ))}

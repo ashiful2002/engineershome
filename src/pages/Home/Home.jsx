@@ -9,6 +9,7 @@ import FAQ from "./Section/FAQ";
 import Review from "./Section/Review";
 import Contact from "./Section/contact/Contact";
 
+
 const Home = () => {
   return (
     <div>

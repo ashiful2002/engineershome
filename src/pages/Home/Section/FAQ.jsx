@@ -1,9 +1,9 @@
 import React from "react";
-import Section from "../../Components/Section";
-import PageTitle from "../../Components/Title/PageTitle";
+import Section from "../../../Components/Section";
+import PageTitle from "../../../Components/Title/PageTitle";
 import { Accordion } from "react-bootstrap";
-import { faqs } from "../../Constants/Index";
-
+import { faqs } from "../../../Constants/Index";
+ 
 const FAQ = () => {
   return (
     <Section>

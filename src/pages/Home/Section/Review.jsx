@@ -1,7 +1,7 @@
 import React from "react";
-import Section from "../../Components/Section";
-import PageTitle from "../../Components/Title/PageTitle";
-import ACarousel from "../../Components/Carousel";
+import Section from "../../../Components/Section";
+import PageTitle from "../../../Components/Title/PageTitle";
+import ACarousel from "../../../Components/Carousel";
 
 const Review = () => {
   return (
@@ -13,5 +13,5 @@ const Review = () => {
     </Section>
   ); 
 };
-
+ 
 export default Review;

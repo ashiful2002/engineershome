@@ -19,6 +19,6 @@ p a {
     @apply bg-green-700 capitalize text-center rounded text-white;
   }
   .subHeading {
-    @apply text-orange-400 capitalize text-2xl ;
+    @apply  capitalize text-2xl bg-secondary-color text-white text-center rounded ;
   }
 }
