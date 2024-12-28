@@ -12,8 +12,28 @@ import review1 from "../assets/Reviews/review1.jpg";
 import review2 from "../assets/Reviews/review2.jpg";
 import review3 from "../assets/Reviews/review3.jpg";
 import review4 from "../assets/Reviews/review4.jpg";
-import { FaEnvelope, FaFacebook, FaPhone, FaWhatsapp } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
+import {
+  FaCalendarAlt,
+  FaEnvelope,
+  FaFacebook,
+  FaGlobe,
+  FaPhone,
+  FaRProject,
+  FaUser,
+  FaUserCog,
+  FaUsers,
+  FaWhatsapp,
+} from "react-icons/fa";
+import { FaBuildingUser, FaCircleUser, FaLocationDot } from "react-icons/fa6";
+import { FcEngineering } from "react-icons/fc";
+import {
+  AiFillExperiment,
+  AiOutlineClockCircle,
+  AiOutlineProject,
+} from "react-icons/ai";
+import { RiGlobalLine } from "react-icons/ri";
+import { BsBuildingCheck } from "react-icons/bs";
+import { MdEngineering } from "react-icons/md";
 
 export const navItems = [
   {
@@ -148,22 +168,30 @@ export const cardDesc = [
 export const Impacts = [
   {
     id: "1",
+    // icon:BsBuildingCheck ,
+    icon: BsBuildingCheck,
     number: "98+",
     text: "projects completed",
   },
   {
     id: "2",
+    // icon: FaUsers,
+    icon: FaBuildingUser,
     number: "94+",
-    text: "global customers",
+    text: "countrywide customers",
   },
   {
     id: "3",
-    number: "4",
+    icon: AiOutlineClockCircle,
+    // icon:AiFillExperiment,
+    number: "4+",
     text: "years of experience",
   },
   {
     id: "4",
     number: "6",
+    icon: MdEngineering,
+    // icon:MdEngineering ,
     text: "team engineers",
   },
 ];
@@ -223,24 +251,33 @@ export const projects = [
 export const faqs = [
   {
     id: "1",
-    question: "Question 1",
+    question: "What services does your firm provide?",
     anster:
-      "this is a answer 1 around 50 words this is a answer 1 around 50 wordsthis is a answer 1 around 50 words",
+      "We specialize in architectural planning, exterior and interior design, construction management, and cost estimation.",
   },
   {
     id: "2",
-    question: "Question 2",
-    anster: "this is a answer 2 around 50 words",
+    question: "What is included in your architectural design services?",
+    anster:
+      "Our architectural services include conceptual designs, floor plans, 3D visualizations, and detailed technical drawings.",
   },
   {
     id: "3",
-    question: "Question 3",
-    anster: "this is a answer 3 around 50 words",
+    question: "Can you design outdoor spaces, such as gardens or patios?",
+    anster:
+      "Yes, we provide exterior design services for landscaping, patios, facades, and more.",
   },
   {
     id: "4",
-    question: "Question 4",
-    anster: "this is a answer 4 around 50 words",
+    question: "How accurate are your cost estimates?",
+    anster:
+      "We provide highly accurate estimates based on market rates and our extensive experience.",
+  },
+  {
+    id: "5",
+    question: "Can you help me stay within my budget?",
+    anster:
+      "Yes, we work closely with you to optimize designs and materials to meet your budget without compromising quality.",
   },
 ];
 

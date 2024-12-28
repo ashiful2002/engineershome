@@ -8,10 +8,10 @@ const Services = () => {
     <Section className="bg-slate-400 rounded">
       <div id="services">
         <PageTitle heading="Services" />
-        <div> 
-          <p className="text-xs text-center">
-            Call or visit our office asap Verbal Consultation is totally free...
-          </p>
+        <div>
+          <p className=" text-center">some of our services are here or</p>{" "}
+          <br /> Call or visit our office asap verbal consultation is totally
+          free...
           <div>
             <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
               {services.map((item) => (

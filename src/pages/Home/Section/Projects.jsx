@@ -9,15 +9,18 @@ const Projects = () => {
       <PageTitle heading="Explore Our Recent Projects" />
       <div>
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ">
             {projects.map((item) => (
-              <div key={item.id} className="bg-neutral-500 rounded-b-md my-3">
+              <div
+                key={item.id}
+                className="bg-neutral-800 text-white rounded-b-md my-3"
+              >
                 <div>
                   <img src={item.image} alt={item.name} className="" />
                 </div>
                 <div className="p-2 ">
-                  <h4 className="capitalize text-neutral-800">{item.name}</h4>
-                  <p>{item.desc}</p>
+                  <h4 className="capitalize ">{item.name}</h4>
+                  <p className="text-secondary-color">{item.desc}</p>
                 </div>
               </div>
             ))}

@@ -63,7 +63,7 @@ const FormData = () => {
           />
         </div>
         <div>
-          <Button type="submit">Send Message</Button>
+          <Button className="mt-4" type="submit">Send Message</Button>
         </div>
       </form>
     </div>

@@ -7,7 +7,7 @@ const ACarousel = () => {
     console.log(currentSlide);
   };
   return (
-    <Carousel className="" infinite={true} autoplay>
+    <Carousel className="" infinite={false} autoplay >
       {reviews.map((item) => (
         <div key={item.id}>
           <div className="flex items-center justify-center flex-col text-white">

@@ -14,8 +14,8 @@ const FAQ = () => {
           {faqs.map((item) => (
             
               <Accordion.Item className="my-3 shadow-sm"  key={item.id} eventKey={item.id}>
-                <Accordion.Header className="capitalize ">{item.question}</Accordion.Header>
-                <Accordion.Body className="capitalize">{item.anster}</Accordion.Body>
+                <Accordion.Header className=" ">{item.question}</Accordion.Header>
+                <Accordion.Body className="">{item.anster}</Accordion.Body>
               </Accordion.Item>
             
           ))}
