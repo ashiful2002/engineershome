@@ -14,7 +14,7 @@ const Contact = () => {
         <GetInTouch />
         <FormData />
       </div>
-    </Section>
+    </Section> 
   );
 };
 

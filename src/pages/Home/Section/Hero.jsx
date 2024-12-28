@@ -4,7 +4,8 @@ import Section from "../../../Components/Section";
 import PageTitle from "../../../Components/Title/PageTitle";
 import heroimage from "../../../assets/heroimage.png";
 import Button from "../../../Components/Button";
-const Hero =  () => {
+import Soical from "./contact/Soical";
+const Hero = () => {
   return (
     <Section id="home">
       <PageTitle className="bg-transparent text-green-700" />
@@ -32,6 +33,7 @@ const Hero =  () => {
                   <Button href="/#">{item.btnText}</Button>
                 </div>
               ))}
+              <Soical />
             </div>
           </div>
         </div>

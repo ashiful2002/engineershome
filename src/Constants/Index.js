@@ -283,16 +283,22 @@ export const faqs = [
 
 export const contactDetails = [
   {
-    id: "01",
-    title: "rowmari, kurigram",
-    icon: FaLocationDot,
-    url: "https://maps.app.goo.gl/QBWdLw4sPrBsWNco9",
-  },
-  {
     id: "02",
     title: "phone",
     icon: FaPhone,
     url: "tel:+880 1770-033557",
+  },
+  {
+    id: "05",
+    title: "whatsapp",
+    icon: FaWhatsapp,
+    url: "https://wa.me/+880 1770-033557",
+  },
+  {
+    id: "04",
+    title: "facebook",
+    icon: FaFacebook,
+    url: "https://www.facebook.com/ehome.ltd",
   },
   {
     id: "03",
@@ -301,16 +307,10 @@ export const contactDetails = [
     url: "mailto:engineershome.ltd@gmail.com",
   },
   {
-    id: "03",
-    title: "facebook",
-    icon: FaFacebook,
-    url: "https://www.facebook.com/ehome.ltd",
-  },
-  {
-    id: "03",
-    title: "whatsapp",
-    icon: FaWhatsapp,
-    url: "https://wa.me/+880 1770-033557",
+    id: "01",
+    title: "rowmari, kurigram",
+    icon: FaLocationDot,
+    url: "https://maps.app.goo.gl/QBWdLw4sPrBsWNco9",
   },
 ];
 export const getInTouch = [

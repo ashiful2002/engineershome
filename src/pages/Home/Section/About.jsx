@@ -8,7 +8,7 @@ const About = () => {
     <Section id="about" classname="">
       <div>
         <div>
-          <div className="flex border rounded flex-col md:flex-row justify-around ">
+          <div className="flex  rounded flex-col md:flex-row justify-around ">
             <div className="">
               <img src={logo} alt="logo" srcset="" />
             </div>
