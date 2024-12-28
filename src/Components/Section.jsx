@@ -2,7 +2,8 @@ import React from "react";
 
 const Section = ({ children, classname, id }) => {
   return (
-    <div className={`container mx-auto my-3  ${classname}`} id={id}>
+    <div className={`p-4 my-3  mx-auto ${classname}`} id={id}>
+      {/* container */}
       {children}
     </div>
   );
