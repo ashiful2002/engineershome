@@ -283,7 +283,7 @@ export const getInTouch = [
     url: "https://maps.app.goo.gl/ahn8oH18REeZWUTJA",
     title: "address",
     name: "Rowmari, Kurigram",
-    desc: "36, khonjonmara mosjid market, khonjonmara",
+    desc: "36, khonjonmara mosjid market, khonjonmara. Rowmari",
   },
   {
     id: uuidv4().substring(0, 6),
