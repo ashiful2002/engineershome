@@ -25,7 +25,7 @@ const Hero = () => {
             <div className="">
               {heroDesc.map((item) => (
                 <div className="" key={item.id}>
-                  <h6 className="subHeading">{item.title}</h6>
+                  <h1 className="subHeading text-5xl inline px-10">{item.title}</h1>
                   <h1 className="font-bold my-4 tracking-tight">
                     {item.heading}
                   </h1>

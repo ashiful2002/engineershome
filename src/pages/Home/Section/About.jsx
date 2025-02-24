@@ -7,25 +7,25 @@ const About = () => {
   return (
     <Section id="about" classname="">
       <div>
-        <div>
-          <div className="flex  rounded flex-col md:flex-row justify-around ">
-            <div className="">
-              <img src={logo} alt="logo" srcset="" />
+        <div className="container">
+          <div className="flex  rounded flex-col  justify-around md:flex-row-reverse ">
+            <div className="w-3/5">
+              <img src={logo} alt="logo" className="w-full" />
             </div>
-            <div>
+            <div className="">
               {aboutSec.map((item) => (
-                <div className="my-4 text-end" key={item.id}>
-                  <h6 className="subHeading text-secondary-color">{item.title}</h6>
-                  <h1 className="font-bold my-4 heading inline text-primary-color bg-transparent">
+                <div className="my-4 text-ednd" key={item.id}>
+                  {/* <h6 className="subHeading text-secondary-color">{item.title}</h6> */}
+                  <h1 className="font-bold my-4 heading inline  text-primary-color bg-transparent ">
                     {item.heading}
                   </h1>
-                  <p className="text-neutral-600 tracking-tight p-2 text-justify">
+                  <p className="text-neutral-600  tracking-tight p-2 text-justify">
                     {item.text}
                   </p>
                   <span>
                     <h4 className="text-neutral-600 gap-2 ">
                       {/* <span><MdKeyboardCommandKey /></span> */}
-                      <p className="text-secondary-color">
+                      <p className="text-secondary-color text-end">
                         Founder - {item.founder}
                       </p>
                     </h4>

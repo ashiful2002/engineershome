@@ -21,7 +21,7 @@ const Copyright = () => {
               target="_blank"
               className="ml-2 text-green-500"
             >
-              mukto
+              Mukto
             </a>
           </p>
         </div>

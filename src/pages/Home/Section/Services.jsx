@@ -10,16 +10,16 @@ const Services = () => {
         <PageTitle heading="Services" />
         <div>
           <p className=" text-center">some of our services are here or</p>{" "}
-          <br /> Call or visit our office asap verbal consultation is totally
-          free...
+          {/* <br /> Call or visit our office asap verbal consultation is totally
+          free... */}
           <div>
             <div className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
               {services.map((item) => (
-                <div id={item.id} className=" shadow rounded">
+                <div id={item.id} className=" shadow rounded pb-10">
                   <div>
                     <img src={item.image} alt="image" className="rounded-xl " />
                   </div>
-                  <h4 className="inline  bg-secondary-color text-white capitalize rounded-md px-4 ">
+                  <h4 className="inline  bg-secondary-color  py-2   text-white capitalize rounded-md px-4 ">
                     {item.text}
                   </h4>
                 </div>

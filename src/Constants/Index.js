@@ -6,24 +6,18 @@ import eRazib from "../assets/eRazib.png";
 
 import service1 from "../assets/service1.jpg";
 import cost from "../assets/Services/cost.jpg";
+import architectural from "../assets/Services/architectural.jpg";
+import construction from "../assets/Services/construction.jpg";
+import interior from "../assets/Services/interior.jpg";
+// import interior from "../assets/Services/interior.jpg";
+
 import structural from "../assets/Services/structural.jpg";
 
 import review1 from "../assets/Reviews/review1.jpg";
 import review2 from "../assets/Reviews/review2.jpg";
 import review3 from "../assets/Reviews/review3.jpg";
 import review4 from "../assets/Reviews/review4.jpg";
-import {
-  FaCalendarAlt,
-  FaEnvelope,
-  FaFacebook,
-  FaGlobe,
-  FaPhone,
-  FaRProject,
-  FaUser,
-  FaUserCog,
-  FaUsers,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaPhone, FaWhatsapp } from "react-icons/fa";
 import { FaBuildingUser, FaCircleUser, FaLocationDot } from "react-icons/fa6";
 import { FcEngineering } from "react-icons/fc";
 import {
@@ -199,7 +193,7 @@ export const Impacts = [
 export const services = [
   {
     id: "0",
-    image: service1,
+    image: architectural,
     text: "architectural plan & design",
   },
   {
@@ -209,12 +203,12 @@ export const services = [
   },
   {
     id: "2",
-    image: service1,
+    image: interior,
     text: "exterior & interior design",
   },
   {
     id: "3",
-    image: service1,
+    image: construction,
     text: "Construction management",
   },
   {
