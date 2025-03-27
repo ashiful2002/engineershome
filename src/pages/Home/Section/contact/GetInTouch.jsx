@@ -20,8 +20,9 @@ const GetInTouch = () => {
               >
                 <Icon className="text-[70px]  text-center bg-slate-500 rounded-full text-white p-2 " />
                 <h5>{title}</h5>
-                <h6>{name}</h6>
                 <p>{desc}</p>
+
+                <h6>{name}</h6>
                 <>
                   {li2 && (
                     <ul className="">

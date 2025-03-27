@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Galada&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
 h1,
 h2,
 h3,
@@ -10,15 +12,26 @@ h5,
 h6 {
   font-family: "Roboto", serif;
 }
+
 p a {
   font-family: "Poppins", serif;
 }
+
+.bangla-font1 {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.bangla-font2 {
+  font-family: "Galada", cursive;
+}
+
 
 @layer components {
   .heading {
     @apply bg-green-700 capitalize text-center rounded text-white;
   }
+
   .subHeading {
-    @apply  capitalize text-2xl bg-secondary-color text-white text-center rounded ;
+    @apply capitalize text-2xl bg-secondary-color text-white text-center rounded;
   }
 }

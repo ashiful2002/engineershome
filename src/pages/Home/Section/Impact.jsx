@@ -14,11 +14,11 @@ const Impact = () => {
             {Impacts.map(({ id, number, text, icon: Icon }) => (
               <div
                 key={id}
-                className="border w-[90%] mx-auto my-2 bg-slate-800 hover:bg-slate-600 rounded-2xl p-5 text-white  transition-all"
+                className="border w-[90%] mx-auto my-2 text-center bg-secondary-color hover:bg-[#ff811a] rounded-2xl p-5 text-white  transition-all"
               >
                 <Icon className="text-5xl mx-auto my-4" />
-                <p className="text-5xl font-bold text-center">{number}</p>
-                <p className="text-xl capitalize text-center">{text}</p>
+                <p className="text-5xl font-bold ">{number}</p>
+                <p className="text-xl capitalize ">{text}</p>
               </div>
             ))}
           </div>

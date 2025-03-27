@@ -67,7 +67,7 @@ export const heroDesc = [
     id: "1",
     title: "Engineers Home Consultancy",
     heading: "নিরাপদ, নান্দনিক ও সাশ্রয়ী ভবন ডিজাইনের অনন্য প্রতিশ্রুতি",
-    text: "আপনার স্বপ্ননীড় নির্মাণে বিশ্বস্ত সহযোগী",
+    text: "Your trust, our quality...",
     btnText: "read more",
   },
 ];
@@ -85,7 +85,7 @@ export const cardDesc = [
   {
     id: "0",
     img: eAmim,
-    name: "Engr. Alim Uddin",
+    name: "Engr. MD. Alim Uddin",
     degree: "B.Sc. in Civil Engineering",
     post: "Founder & Chairman",
     expert: "Structural Design Expert",
@@ -110,7 +110,7 @@ export const cardDesc = [
   {
     id: "2",
     img: eSelim,
-    name: "Engr. Selim Reza",
+    name: "Selim Reza",
     degree: "B.Sc. in Civil Engineering",
     post: "Co-founder & Managing Director",
     expert: "Structural Design Expert",
@@ -164,14 +164,14 @@ export const Impacts = [
     id: "1",
     // icon:BsBuildingCheck ,
     icon: BsBuildingCheck,
-    number: "98+",
+    number: "114+",
     text: "projects completed",
   },
   {
     id: "2",
     // icon: FaUsers,
     icon: FaBuildingUser,
-    number: "94+",
+    number: "97+",
     text: "countrywide customers",
   },
   {
@@ -314,15 +314,15 @@ export const getInTouch = [
     url: "https://maps.app.goo.gl/ahn8oH18REeZWUTJA",
     title: "address",
     name: "Rowmari, Kurigram",
-    desc: "36, khonjonmara mosjid market, khonjonmara. Rowmari",
+    desc: " khanjan Mara (bazar road). Rowmari",
   },
   {
     id: uuidv4().substring(0, 6),
     url: "tel:+880 1770-033557",
     icon: FaPhone,
     title: "phone",
-    li1: "razib: +880 1770-033557",
-    li2: "selim: +8801711059527",
+    li1: "razib ahmed: +880 1770-033557",
+    li2: "selim reza: +8801711059527",
   },
   {
     id: uuidv4().substring(0, 6),

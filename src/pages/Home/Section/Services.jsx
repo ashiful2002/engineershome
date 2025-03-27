@@ -9,7 +9,7 @@ const Services = () => {
       <div id="services">
         <PageTitle heading="Services" />
         <div>
-          <p className=" text-center">some of our services are here or</p>{" "}
+          {/* <p className=" text-center">some of our services are here or</p>{" "} */}
           {/* <br /> Call or visit our office asap verbal consultation is totally
           free... */}
           <div>

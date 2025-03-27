@@ -7,7 +7,7 @@ import Card from "../../../Components/Card";
 const Engineers = () => {
   return (
     <Section id="experts">
-      <PageTitle heading="our experts" />
+      <PageTitle heading="our executives" />
       <div className="flex items-start justify-center md:flex-row flex-col gap-5 mt-4">
         {cardDesc.map((item) => (
           <div className="" key={item.id}>

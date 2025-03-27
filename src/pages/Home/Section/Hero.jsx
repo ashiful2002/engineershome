@@ -17,7 +17,7 @@ const Hero = () => {
                 <img
                   className="rounded-full "
                   src={heroimage}
-                  alt=""
+                  alt="engineers"
                   srcset=""
                 />
               </div>
@@ -25,12 +25,17 @@ const Hero = () => {
             <div className="">
               {heroDesc.map((item) => (
                 <div className="" key={item.id}>
-                  <h1 className="subHeading text-5xl inline px-10">{item.title}</h1>
-                  <h1 className="font-bold my-4 tracking-tight">
+                  <h1 className="subHeading text-4xl inline px-2">
+                    {item.title}
+                  </h1>
+                  <p className="text-green-700 text-2xl my-4 font-semibold ">
+                    {item.text}
+                  </p>
+
+                  <h1 className="font-semibold my-4 text-[20px] tracking-tight bangla-font2">
                     {item.heading}
                   </h1>
-                  <p className="text-neutral-600">{item.text}</p>
-                  <Button href="/#">{item.btnText}</Button>
+                  {/* <Button href="/#">{item.btnText}</Button> */}
                 </div>
               ))}
               <Soical />
