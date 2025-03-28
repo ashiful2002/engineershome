@@ -5,16 +5,22 @@ import PageTitle from "../../../../Components/Title/PageTitle";
 import Soical from "./Soical";
 import GetInTouch from "./GetInTouch";
 import FormData from "./FormData";
+import IframeMap from "./IframeMap";
 
 const Contact = () => {
   return (
-    <Section classname="" id="contact">
-      <PageTitle heading="Contact" className=" p-3 mb-5" />
-      <div className="flex items-start gap-5 justify-center flex-col  md:flex-row">
-        <GetInTouch />
-        <FormData />
-      </div>
-    </Section> 
+    <>
+      <PageTitle heading="Contact" className="" />
+
+      <Section classname="" id="contact">
+        <div className="flex  gap-5 justify-center flex-col items-center md:flex-row">
+          <GetInTouch />
+          <IframeMap />
+
+          {/* <FormData /> */}
+        </div>
+      </Section>
+    </>
   );
 };
 

@@ -3,7 +3,7 @@ import { getInTouch } from "../../../../Constants/Index";
 
 const GetInTouch = () => {
   return (
-    <div className=" md:w-[60%] w-full">
+    <div className="w-full md:w-[60%]">
       <h4 className="subHeading bg-transparent text-secondary-color mb-4">
         Get in touch
       </h4>

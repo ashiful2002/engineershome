@@ -9,7 +9,7 @@ const PageTitle = ({ title, heading, className }) => {
           <title>{title} - Engineers Home </title>
         </Helmet>
       )}
-      {heading && <h1 className={`heading  ${className} `}>{heading}</h1>}
+      {heading && <h1 className={`heading  ${className}`}>{heading}</h1>}
     </>
   );
 };

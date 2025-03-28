@@ -286,7 +286,7 @@ export const contactDetails = [
     id: "05",
     title: "whatsapp",
     icon: FaWhatsapp,
-    url: "https://wa.me/+880 1770-033557",
+    url: "https://wa.me/+8801770033557",
   },
   {
     id: "04",

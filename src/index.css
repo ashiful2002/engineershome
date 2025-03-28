@@ -28,7 +28,7 @@ p a {
 
 @layer components {
   .heading {
-    @apply bg-green-700 capitalize text-center rounded text-white;
+    @apply bg-green-700 capitalize text-center rounded text-white md:container mx-auto;
   }
 
   .subHeading {

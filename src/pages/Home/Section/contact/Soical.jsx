@@ -9,7 +9,7 @@ const Soical = () => {
       </h3>
       <div className="flex items-start justify-start">
         {contactDetails.map(({ icon: Icon, url, id }) => (
-          <div key={id} className=" ">
+          <div key={id} className=" " >
             <a
               href={url}
               target="_blank"
